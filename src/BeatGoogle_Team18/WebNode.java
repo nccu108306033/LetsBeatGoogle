@@ -1,3 +1,4 @@
+package BeatGoogle_Team18;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -20,7 +21,7 @@ public class WebNode {
 		}
 	}
 	public void addChild(WebNode child){
-		this.children.add(child);
 		child.parent = this;
+		this.children.add(child);
 	}
 }
