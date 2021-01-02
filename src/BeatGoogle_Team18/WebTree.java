@@ -20,5 +20,6 @@ public class WebTree {
 			child.setNodeScore(keywords);
 		}
 		startNode.setNodeScore(keywords);
+		
 	}
 }

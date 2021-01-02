@@ -21,7 +21,8 @@ public class WebNode {
 		}
 	}
 	public void addChild(WebNode child){
-		child.parent = this;
 		this.children.add(child);
+		child.parent = this;
 	}
+
 }
