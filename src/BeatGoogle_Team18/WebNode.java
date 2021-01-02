@@ -24,5 +24,8 @@ public class WebNode {
 		this.children.add(child);
 		child.parent = this;
 	}
+	public double getNodeScore(){
+		return nodeScore;
+	}
 
 }
