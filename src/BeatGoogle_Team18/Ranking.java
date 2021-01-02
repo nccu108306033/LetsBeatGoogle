@@ -13,6 +13,7 @@ public class Ranking {
 		nodeList.add(node);
 	}
 	public ArrayList<WebNode> QuickSort(ArrayList<WebNode>nodeList,int leftest,int rightest) {
+		
 		if(nodeList.size()<2) {
 			return nodeList;
 		}
